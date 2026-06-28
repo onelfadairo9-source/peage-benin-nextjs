@@ -11,6 +11,10 @@
   "dependencies": {
     "@kkiapay-org/nodejs-sdk": "^1.0.7",
     "@tailwindcss/postcss": "4.1.17",
+    "@types/node": "22.19.15",
+    "@types/pg": "8.18.0",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
     "dotenv": "17.3.1",
     "drizzle-orm": "0.45.2",
     "lucide-react": "^1.21.0",
@@ -19,16 +23,12 @@
     "postcss": "8.5.8",
     "react": "19.2.6",
     "react-dom": "19.2.6",
-    "tailwindcss": "4.1.17"
+    "tailwindcss": "4.1.17",
+    "typescript": "5.9.3"
   },
   "devDependencies": {
-    "@types/node": "22.19.15",
-    "@types/pg": "8.18.0",
-    "@types/react": "19.2.14",
-    "@types/react-dom": "19.2.3",
     "drizzle-kit": "0.31.10",
     "eslint": "9.39.4",
-    "eslint-config-next": "16.2.6",
-    "typescript": "5.9.3"
+    "eslint-config-next": "16.2.6"
   }
 }

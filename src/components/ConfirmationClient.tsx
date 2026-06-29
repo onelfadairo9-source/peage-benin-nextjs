@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import Script from "next/script";
 import { QrCode } from "@/components/QrCode";
+import { OfficialTicket } from "@/components/OfficialTicket";
 import { StatusBadge } from "@/components/StatusBadge";
 import { formatFCFA, formatDateTime } from "@/lib/format";
 import { vehicleName, PAYMENT_METHODS } from "@/lib/constants";
@@ -301,6 +302,10 @@ function Receipt({ data }: { data: ReceiptData }) {
         >
           <Home size={16} />
         </Link>
+      </div>
+
+      <div className="print:hidden">
+        <OfficialTicket data={data} />
       </div>
     </div>
   );
